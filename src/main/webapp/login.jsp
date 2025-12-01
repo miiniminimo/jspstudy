@@ -27,7 +27,7 @@
 
 <p>
   <a href="<%=request.getContextPath()%>/signup.jsp">회원가입 하러 가기</a> |
-  <a href="<%=request.getContextPath()%>/index.jsp">메인으로</a>
+  <a href="<%=request.getContextPath()%>/home.jsp">메인으로</a>
 </p>
 
 </body>

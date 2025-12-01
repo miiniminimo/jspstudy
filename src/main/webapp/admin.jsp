@@ -18,7 +18,7 @@
 <h1>관리자 페이지 - 회원관리</h1>
 
 <p>
-  <a href="<%=request.getContextPath()%>/index.jsp">메인으로</a> |
+  <a href="<%=request.getContextPath()%>/home.jsp">메인으로</a> |
   <a href="<%=request.getContextPath()%>/logout">로그아웃</a>
 </p>
 

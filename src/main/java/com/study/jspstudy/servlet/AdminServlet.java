@@ -35,7 +35,7 @@ public class AdminServlet extends HttpServlet {
 
         // 관리자가 아니면 메인으로
         if (!loginUser.isAdmin()) {
-            response.sendRedirect(request.getContextPath() + "/index.jsp");
+            response.sendRedirect(request.getContextPath() + "/home.jsp");
             return;
         }
 

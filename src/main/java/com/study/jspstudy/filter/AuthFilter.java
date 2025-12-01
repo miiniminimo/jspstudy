@@ -34,7 +34,7 @@ public class AuthFilter implements Filter {
         }
 
         if ("/admin".equals(path) && !loginUser.isAdmin()) {
-            resp.sendRedirect(req.getContextPath() + "/index.jsp");
+            resp.sendRedirect(req.getContextPath() + "/home.jsp");
             return;
         }
 

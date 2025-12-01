@@ -52,7 +52,7 @@
 </form>
 
 <p>
-  <a href="<%=request.getContextPath()%>/index.jsp">메인으로</a> |
+  <a href="<%=request.getContextPath()%>/home.jsp">메인으로</a> |
   <a href="<%=request.getContextPath()%>/logout">로그아웃</a>
 </p>
 
